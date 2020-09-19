@@ -8,7 +8,9 @@ function Settings() {
     return (
         <div className = "settings">
         <div className="titleSettings">
+        
           <ArrowBackIosIcon />
+        
            <h3>Settings</h3> 
         </div>
         <div className="settingsection">

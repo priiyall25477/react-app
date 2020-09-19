@@ -9,13 +9,15 @@ import VideocamIcon from '@material-ui/icons/Videocam';
 
 import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
 import Footer from "./Footer.js";
-
+import { Link } from "react-router-dom";
 function Recents() {
     return (
         <div className = "recents">
 
         <div className="titleRecents">
+        <Link to = "/home">
             <ArrowBackIosIcon />
+        </Link>
            <h3>Recents</h3> 
         </div>
 
